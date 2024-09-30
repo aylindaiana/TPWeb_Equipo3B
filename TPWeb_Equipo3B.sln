@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWeb_Equipo3B", "TPWeb_Equipo3B\TPWeb_Equipo3B.csproj", "{94773356-5DF1-48F1-868B-3A2BBE875ACC}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TPWeb_Equipo3B", "TPWeb_Equipo3B\TPWeb_Equipo3B.vbproj", "{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94773356-5DF1-48F1-868B-3A2BBE875ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94773356-5DF1-48F1-868B-3A2BBE875ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94773356-5DF1-48F1-868B-3A2BBE875ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94773356-5DF1-48F1-868B-3A2BBE875ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {36DAD518-321C-4C0C-BCEC-2FC146CE2F9F}
+		SolutionGuid = {20E0381E-B6AB-485D-A990-AB1A9EB6BF71}
 	EndGlobalSection
 EndGlobal

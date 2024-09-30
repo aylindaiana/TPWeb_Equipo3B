@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94773356-5DF1-48F1-868B-3A2BBE875ACC}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\aapan\\downloads\\tpweb_equipo3b\\tpweb_equipo3b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{94773356-5DF1-48F1-868B-3A2BBE875ACC}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|solutionrelative:TPWeb_Equipo3B\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94773356-5DF1-48F1-868B-3A2BBE875ACC}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{94773356-5DF1-48F1-868B-3A2BBE875ACC}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:TPWeb_Equipo3B\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TPWeb_Equipo3B\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx.cs",
               "RelativeToolTip": "TPWeb_Equipo3B\\Default.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T18:45:21.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T18:45:21.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Default.aspx",
@@ -43,7 +41,8 @@
               "RelativeToolTip": "TPWeb_Equipo3B\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-30T18:41:44.773Z"
+              "WhenOpened": "2024-09-30T18:41:44.773Z",
+              "EditorCaption": ""
             }
           ]
         }
