@@ -124,3 +124,7 @@ C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Eq.
 C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Equipo3B.dll
 C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Equipo3B.xml
 C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Equipo3B.pdb
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Dominio.dll
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Manager.dll
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Dominio.pdb
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Manager.pdb

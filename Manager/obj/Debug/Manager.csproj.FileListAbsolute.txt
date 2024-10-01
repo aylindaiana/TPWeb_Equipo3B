@@ -25,3 +25,12 @@ C:\Users\aapan\Downloads\GestionDeComercio\Manager\obj\Debug\Manager.csproj.Core
 C:\Users\aapan\Downloads\GestionDeComercio\Manager\obj\Debug\Manager.csproj.Up2Date
 C:\Users\aapan\Downloads\GestionDeComercio\Manager\obj\Debug\Manager.dll
 C:\Users\aapan\Downloads\GestionDeComercio\Manager\obj\Debug\Manager.pdb
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\bin\Debug\Manager.dll
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\bin\Debug\Manager.pdb
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\bin\Debug\Dominio.dll
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\bin\Debug\Dominio.pdb
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.Up2Date
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\obj\Debug\Manager.dll
+C:\Users\usuario\Desktop\TPWeb\TPWeb_Equipo3B\Manager\obj\Debug\Manager.pdb

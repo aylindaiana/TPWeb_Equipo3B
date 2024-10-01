@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Desktop\\TPWeb\\TPWeb_Equipo3B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|c:\\users\\usuario\\desktop\\tpweb\\tpweb_equipo3b\\tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|solutionrelative:tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|c:\\users\\usuario\\desktop\\tpweb\\tpweb_equipo3b\\tpweb_equipo3b\\siteprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}|TPWeb_Equipo3B\\TPWeb_Equipo3B.vbproj|solutionrelative:tpweb_equipo3b\\siteprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\TPWeb\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx",
+              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Default.aspx",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\TPWeb\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx",
+              "RelativeToolTip": "TPWeb_Equipo3B\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T18:10:42.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SitePrincipal.Master",
+              "DocumentMoniker": "C:\\Users\\usuario\\Desktop\\TPWeb\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\SitePrincipal.Master",
+              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\SitePrincipal.Master",
+              "ToolTip": "C:\\Users\\usuario\\Desktop\\TPWeb\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\SitePrincipal.Master",
+              "RelativeToolTip": "TPWeb_Equipo3B\\SitePrincipal.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-01T17:57:56.047Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -37,6 +37,24 @@ TPWeb_Equipo3B
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:TPWeb_Equipo3B._Default._TexBoxCodigo">
+<summary>
+Control TexBoxCodigo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B._Default._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:TPWeb_Equipo3B.SitePrincipal._head">
 <summary>
 Control head.

@@ -1,7 +1,21 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/SitePrincipal.Master" CodeBehind="Default.aspx.vb" Inherits="TPWeb_Equipo3B._Default" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h1>Soy el inicio YO</h1>
+    <form>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col">
+                <hr />
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label fw-bold">Ingresa el código de tu boucher</label>
+                    <asp:TextBox runat="server" class="form-control" ID="TexBoxCodigo" TextMode="Password" />
+                </div>
+                <asp:Button ID="Button1" runat="server" Text="Siguiente" CssClass="btn btn-primary" />
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </form>
 </asp:Content>
