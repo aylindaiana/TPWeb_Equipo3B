@@ -55,6 +55,87 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxDNI">
+<summary>
+Control TextBoxDNI.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxNombre">
+<summary>
+Control TextBoxNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxApellido">
+<summary>
+Control TextBoxApellido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxEmail">
+<summary>
+Control TextBoxEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxDireccion">
+<summary>
+Control TextBoxDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxCiudad">
+<summary>
+Control TextBoxCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._TextBoxCP">
+<summary>
+Control TextBoxCP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._CheckBoxTerminos">
+<summary>
+Control CheckBoxTerminos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TPWeb_Equipo3B.Registro._BotonParticipar">
+<summary>
+Control BotonParticipar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:TPWeb_Equipo3B.SitePrincipal._head">
 <summary>
 Control head.
