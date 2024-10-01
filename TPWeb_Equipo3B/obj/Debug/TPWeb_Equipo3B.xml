@@ -55,6 +55,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:TPWeb_Equipo3B.GraciasPorParticipar._BotonParticipar">
+<summary>
+Control BotonParticipar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:TPWeb_Equipo3B.Registro._TextBoxDNI">
 <summary>
 Control TextBoxDNI.
