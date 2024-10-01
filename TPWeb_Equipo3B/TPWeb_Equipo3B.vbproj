@@ -94,6 +94,9 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Premios.aspx" />
+    <Content Include="Registro.aspx" />
+    <Content Include="Voucher.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +129,34 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Premios.aspx.designer.vb">
+      <DependentUpon>Premios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Premios.aspx.vb">
+      <DependentUpon>Premios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Registro.aspx.designer.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.aspx.vb">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="SitePrincipal.Master.designer.vb">
+      <DependentUpon>SitePrincipal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SitePrincipal.Master.vb">
+      <DependentUpon>SitePrincipal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Voucher.aspx.designer.vb">
+      <DependentUpon>Voucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Voucher.aspx.vb">
+      <DependentUpon>Voucher.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -146,6 +177,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <Content Include="SitePrincipal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

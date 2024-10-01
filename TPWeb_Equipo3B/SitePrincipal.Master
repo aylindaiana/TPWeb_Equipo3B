@@ -1,0 +1,30 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="SitePrincipal.master.vb" Inherits="TPWeb_Equipo3B.SitePrincipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul>
+                    <li> <a href="Default.aspx">Inicio</a></li>
+                    <li><a href="Registro.aspx">Registrarse</a></li>
+                    <li><a href="Voucher.aspx">Ingresar Vaucher</a></li>
+                    <li><a href="Premios.aspx">Quiero mi Premio</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
