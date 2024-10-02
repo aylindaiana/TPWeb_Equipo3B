@@ -130,13 +130,21 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TPWeb_Equipo3B\Dominio\Dominio.csproj">
+    <ProjectReference Include="..\..\tp-winform-equipo-3B\Categoria\Categoria.csproj">
+      <Project>{ae8e4d21-d8df-46ef-83ec-76a16a5c4a7a}</Project>
+      <Name>Categoria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\tp-winform-equipo-3B\Dominio\Dominio.csproj">
       <Project>{452e3e28-0a05-4265-bf16-c9dc3c84f3dc}</Project>
       <Name>Dominio</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\TPWeb_Equipo3B\Manager\Manager.csproj">
+    <ProjectReference Include="..\..\tp-winform-equipo-3B\Manager\Manager.csproj">
       <Project>{40015f15-fad3-476b-85a7-ca316566fe6c}</Project>
       <Name>Manager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\tp-winform-equipo-3B\Marca\Marca.csproj">
+      <Project>{7dd8ced9-f6e5-4d47-b586-66b73156e721}</Project>
+      <Name>Marca</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
