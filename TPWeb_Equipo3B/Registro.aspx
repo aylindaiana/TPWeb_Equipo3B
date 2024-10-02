@@ -136,7 +136,8 @@
                 </div>
                 <div class="col">
                     <label for="TextBoxCP" class="form-label">Código Postal (CP)</label>
-                    <asp:TextBox ID="TextBoxCP" runat="server" CssClass="form-control" Placeholder="Ingrese su código postal" required pattern="\d{6,7} title="El Codigo postal debe ser valido." maxlength="7" Style="width: 235px;"></asp:TextBox>
+                    <asp:TextBox ID="TextBoxCP" runat="server" CssClass="form-control" Placeholder="Ingrese su código postal" required pattern="\d{6,7}" 
+                        title="El Codigo postal debe ser valido." maxlength="7" Style="width: 235px;"></asp:TextBox>
                 </div>
             </div>
 

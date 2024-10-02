@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
+using Manager;
 
 namespace TPWeb_Equipo3B
 {
@@ -12,7 +13,9 @@ namespace TPWeb_Equipo3B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            ArticuloManager manager = new ArticuloManager();
 
+           // ListarArticulos = manager.listarConSP();
         }
     }
 }

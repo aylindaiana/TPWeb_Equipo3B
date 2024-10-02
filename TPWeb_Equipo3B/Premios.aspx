@@ -23,10 +23,6 @@
                             <li class="list-group-item"><%# Eval("marca").ToString() %></li>
                             <li class="list-group-item"><%# Eval("categoria").ToString() %></li>
                         </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Agregar</a>
-                            <a href="#" class="card-link">Más detalles</a>
-                        </div>
                     </div>
 
                 </ItemTemplate>
