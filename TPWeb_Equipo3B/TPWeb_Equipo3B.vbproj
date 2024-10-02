@@ -97,7 +97,6 @@
     <Content Include="GraciasPorParticipar.aspx" />
     <Content Include="Premios.aspx" />
     <Content Include="Registro.aspx" />
-    <Content Include="Voucher.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -157,13 +156,6 @@
     <Compile Include="SitePrincipal.Master.vb">
       <DependentUpon>SitePrincipal.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Voucher.aspx.designer.vb">
-      <DependentUpon>Voucher.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Voucher.aspx.vb">
-      <DependentUpon>Voucher.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
