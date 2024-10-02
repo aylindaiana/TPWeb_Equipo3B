@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TPWeb_Equipo3B", "TPWeb_Equipo3B\TPWeb_Equipo3B.vbproj", "{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWeb_Equipo3B", "TPWeb_Equipo3B\TPWeb_Equipo3B.csproj", "{DCCF6F65-96A6-4100-96D9-A9846C3879B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{452E3E28-0A05-4265-BF16-C9DC3C84F3DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "..\TPWeb_Equipo3B\Dominio\Dominio.csproj", "{452E3E28-0A05-4265-BF16-C9DC3C84F3DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "Manager\Manager.csproj", "{40015F15-FAD3-476B-85A7-CA316566FE6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "..\TPWeb_Equipo3B\Manager\Manager.csproj", "{40015F15-FAD3-476B-85A7-CA316566FE6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5CBAD5F9-B255-421C-AC64-D3C0E17CEF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCF6F65-96A6-4100-96D9-A9846C3879B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCF6F65-96A6-4100-96D9-A9846C3879B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCF6F65-96A6-4100-96D9-A9846C3879B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCF6F65-96A6-4100-96D9-A9846C3879B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{452E3E28-0A05-4265-BF16-C9DC3C84F3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{452E3E28-0A05-4265-BF16-C9DC3C84F3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{452E3E28-0A05-4265-BF16-C9DC3C84F3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {20E0381E-B6AB-485D-A990-AB1A9EB6BF71}
+		SolutionGuid = {1D6D12D5-FC64-4C70-A2D4-5B4B4DFD6762}
 	EndGlobalSection
 EndGlobal

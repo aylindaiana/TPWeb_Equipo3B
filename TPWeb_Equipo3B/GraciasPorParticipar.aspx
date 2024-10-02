@@ -1,6 +1,6 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/SitePrincipal.Master" CodeBehind="GraciasPorParticipar.aspx.vb" Inherits="TPWeb_Equipo3B.GraciasPorParticipar" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitioPrincipal.Master" AutoEventWireup="true" CodeBehind="GraciasPorParticipar.aspx.cs" Inherits="TPWeb_Equipo3B.GraciasPorParticipar" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style>
+        <style>
         .serpentinas {
             position: absolute;
             top: 10%;
@@ -52,26 +52,24 @@
         }
     </style>
 </asp:Content>
-
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col">
-            <div class="container">
-                <h1 class="thank-you-title">¡Gracias por participar!</h1>
-               <asp:Button ID="BotonParticipar" runat="server" Text="Volver al inicio" CssClass="btn btn-primary return-button" OnClick="BotonParticipar_Click" />
+     <div class="row">
+     <div class="col-3"></div>
+     <div class="col">
+         <div class="container">
+             <h1 class="thank-you-title">¡Gracias por participar!</h1>
+            <asp:Button ID="BotonParticipar" runat="server" Text="Volver al inicio" CssClass="btn btn-primary return-button" OnClick="BotonParticipar_Click" />
 
-            </div>
-        </div>
-        <div class="col-3"></div>
-    </div>
-    
-    <div class="serpentinas">
-        <div class="serpentina" style="left: 10%; animation-delay: 0s;"></div>
-        <div class="serpentina" style="left: 30%; animation-delay: 0.5s;"></div>
-        <div class="serpentina" style="left: 50%; animation-delay: 1s;"></div>
-        <div class="serpentina" style="left: 70%; animation-delay: 1.5s;"></div>
-        <div class="serpentina" style="left: 90%; animation-delay: 2s;"></div>
-    </div>
+         </div>
+     </div>
+     <div class="col-3"></div>
+ </div>
+ 
+ <div class="serpentinas">
+     <div class="serpentina" style="left: 10%; animation-delay: 0s;"></div>
+     <div class="serpentina" style="left: 30%; animation-delay: 0.5s;"></div>
+     <div class="serpentina" style="left: 50%; animation-delay: 1s;"></div>
+     <div class="serpentina" style="left: 70%; animation-delay: 1.5s;"></div>
+     <div class="serpentina" style="left: 90%; animation-delay: 2s;"></div>
+ </div>
 </asp:Content>
-
