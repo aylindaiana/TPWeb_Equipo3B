@@ -9,9 +9,9 @@
              <hr />
              <div class="mb-3">
                  <label for="exampleInputEmail1" class="form-label fw-bold">Ingresa el código de tu boucher</label>
-                 <asp:TextBox runat="server" class="form-control" ID="TexBoxCodigo" TextMode="Password" />
+                 <asp:TextBox ID="txbIngresoVaucher" runat="server" class="form-control"/>
              </div>
-             <asp:Button ID="Button1" runat="server" Text="Siguiente" CssClass="btn btn-primary" />
+             <asp:Button ID="btnAceptar" runat="server" Text="Siguiente" CssClass="btn btn-primary" OnClick="btnAceptar_Click1" />
          </div>
          <div class="col-3"></div>
      </div>
