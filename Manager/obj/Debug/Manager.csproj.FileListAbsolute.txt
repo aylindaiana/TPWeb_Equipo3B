@@ -52,3 +52,12 @@ C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Manager\obj\Debug\Manager.cspr
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.Up2Date
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Manager\obj\Debug\Manager.dll
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Manager\obj\Debug\Manager.pdb
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\bin\Debug\Manager.dll
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\bin\Debug\Manager.pdb
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\bin\Debug\Dominio.dll
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\bin\Debug\Dominio.pdb
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\obj\Debug\Manager.csproj.Up2Date
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\obj\Debug\Manager.dll
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Manager\obj\Debug\Manager.pdb

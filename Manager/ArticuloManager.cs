@@ -9,6 +9,7 @@ namespace Manager
 {
     public class ArticuloManager
     {
+        
         public List<Articulo> listar()
         {
             List<Articulo> lista = new List<Articulo>();
@@ -52,9 +53,10 @@ namespace Manager
                 datos.CerrarConeccion();
             }
         }
+        //guarde una imagen y se vaya guardando el id de articullo con dos consultas.
+      
 
-
-        public void Agregar(Articulo nuevo)
+    public void Agregar(Articulo nuevo)
         {
             AccesoDatos datos = new AccesoDatos();
             try

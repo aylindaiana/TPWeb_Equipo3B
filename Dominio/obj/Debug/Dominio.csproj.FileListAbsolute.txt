@@ -28,3 +28,9 @@ C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.cspr
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.dll
 C:\Users\BBARRERA\Desktop\repo-web\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.pdb
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\bin\Debug\Dominio.dll
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\bin\Debug\Dominio.pdb
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.dll
+C:\Users\aapan\Downloads\TPWeb_Equipo3B\Dominio\obj\Debug\Dominio.pdb

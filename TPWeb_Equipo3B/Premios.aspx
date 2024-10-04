@@ -7,26 +7,36 @@
         <h3>caja para el agregar dni </h3>
 
     <br />
-
-    <div class="container">
-        <div class="row">
-            <asp:Repeater runat="server" ID="repRepetidor">
-                <ItemTemplate>
-                    <div class="card" style="width: 18rem; margin: 10px;">
-                        <img src="<%# Eval("UrlImagen")%>" class="card-img-top" alt="..." style="height: 200px; width: 100%; object-fit: contain;">
-                        <div class="card-body">
-                            <h5 class="card-title"><%# Eval("nombre")%></h5>
-                            <p class="card-text"><%# Eval("descripcion")%></p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">$<%# Convert.ToDecimal(Eval("precio")).ToString() %> </li>           
-                            <li class="list-group-item"><%# Eval("marca").ToString() %></li>
-                            <li class="list-group-item"><%# Eval("categoria").ToString() %></li>
-                        </ul>
-                    </div>
-
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
+ 
+        <div id="carousel<%# Eval("Id") %>">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"> 
+             <div class="carousel-inner"  >
+             
+              <asp:Repeater runat="server" ID="repRepetidor">
+                <ItemTemplate> 
+                
+                    <div class="carousel-item <%# Container.ItemIndex == 0 ? "active" : "" %>" >
+                         <img src="<%# Eval("ImagenUrl")%>" class="d-block w-10" alt="unauna" style="height: 200px; width: 100%; object-fit: contain;">
+                         <div class="carousel-caption d-none d-md-block">
+                             
+                            <h5 class="card-title"> <%# Eval("IdArticulo") %> </h5>
+                            <p class="card-text">bbbb</p>
+                         </div>
+                     </div>     
+                  
+                 </ItemTemplate>
+             </asp:Repeater>  
+ 
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> 
+         </div>
     </div>
+ 
 </asp:Content>

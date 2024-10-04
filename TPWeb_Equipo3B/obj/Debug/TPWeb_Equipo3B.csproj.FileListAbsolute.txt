@@ -113,15 +113,11 @@ C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\roslyn\vbc.exe.config
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\roslyn\vbc.rsp
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\roslyn\VBCSCompiler.exe
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Categoria.dll
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Dominio.dll
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Manager.dll
-C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Marca.dll
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Categoria.pdb
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Dominio.pdb
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Manager.pdb
-C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Marca.pdb
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Equipo3B.csproj.AssemblyReference.cache
 C:\Users\aapan\Downloads\TPWeb_Equipo3B\TPWeb_Equipo3B\obj\Debug\TPWeb_Equipo3B.csproj.CoreCompileInputs.cache
