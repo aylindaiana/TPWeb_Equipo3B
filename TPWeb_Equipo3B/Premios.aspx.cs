@@ -46,7 +46,8 @@ namespace TPWeb_Equipo3B
                     Imagenes = imageList.Where(i => i.IdArticulo == a.Id).ToList() // Filtra imágenes para cada artículo
                 }).ToList();
 
-                repRepetidor.DataSource = articulosConImagenes;
+                //repRepetidor.DataSource = articulosConImagenes;
+                repRepetidor.DataSource = imagenPorId;
                 repRepetidor.DataBind();
 
                 

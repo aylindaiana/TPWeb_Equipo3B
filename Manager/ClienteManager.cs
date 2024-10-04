@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Manager
 {
-    public class ClientesManager
+    public class ClienteManager
     {
 
         public Cliente BuscarCliente(string Documento) //pide el id y lista todas img de ese articulo
@@ -43,6 +43,33 @@ namespace Manager
                 datos.CerrarConeccion();
             }
 
+        }
+
+
+        public void Agregar(Cliente nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.SetearConsulta("INSERT INTO Clientes(Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) VALUES (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
+                datos.SetearParametro("@Documento", nuevo.Documento);
+                datos.SetearParametro("@Nombre", nuevo.Nombre);
+                datos.SetearParametro("@Apellido", nuevo.Apellido);
+                datos.SetearParametro("@Email", nuevo.Email);
+                datos.SetearParametro("@Direccion", nuevo.Direccion);
+                datos.SetearParametro("@Ciudad", nuevo.Ciudad);
+                datos.SetearParametro("@CP", nuevo.CP);
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConeccion();
+            }
         }
 
     }
