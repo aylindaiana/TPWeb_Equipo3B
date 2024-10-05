@@ -25,8 +25,7 @@
             display: flex;
             background-color: #eadae9;
             justify-content: center; 
-            align-items: center;
-            
+            align-items: center;   
         }
     </style>
 </asp:Content>
