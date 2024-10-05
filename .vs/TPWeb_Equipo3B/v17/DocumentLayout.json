@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\",
+  "WorkspaceRootPath": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\bbarrera\\desktop\\repo-web\\tpweb_equipo3b\\tpweb_equipo3b\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\aapan\\downloads\\tpweb_equipo3b\\tpweb_equipo3b\\premios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\premios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\aapan\\downloads\\tpweb_equipo3b\\tpweb_equipo3b\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\aapan\\downloads\\tpweb_equipo3b\\tpweb_equipo3b\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\bbarrera\\desktop\\repo-web\\tpweb_equipo3b\\tpweb_equipo3b\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\tpweb_equipo3b\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40015F15-FAD3-476B-85A7-CA316566FE6C}|Manager\\Manager.csproj|c:\\users\\bbarrera\\desktop\\repo-web\\tpweb_equipo3b\\manager\\clientemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{40015F15-FAD3-476B-85A7-CA316566FE6C}|Manager\\Manager.csproj|C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\manager\\clientemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40015F15-FAD3-476B-85A7-CA316566FE6C}|Manager\\Manager.csproj|solutionrelative:manager\\clientemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,54 +30,70 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteManager.cs",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\Manager\\ClienteManager.cs",
-              "RelativeDocumentMoniker": "Manager\\ClienteManager.cs",
-              "ToolTip": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\Manager\\ClienteManager.cs",
-              "RelativeToolTip": "Manager\\ClienteManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T16:53:52.897Z",
+              "DocumentIndex": 0,
+              "Title": "Premios.aspx",
+              "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx",
+              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Premios.aspx",
+              "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx",
+              "RelativeToolTip": "TPWeb_Equipo3B\\Premios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-05T00:40:29.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Premios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx.cs",
+              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Premios.aspx.cs",
+              "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx.cs",
+              "RelativeToolTip": "TPWeb_Equipo3B\\Premios.aspx.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAUwEgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T00:40:52.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteManager.cs",
+              "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\Manager\\ClienteManager.cs",
+              "RelativeDocumentMoniker": "Manager\\ClienteManager.cs",
+              "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\Manager\\ClienteManager.cs",
+              "RelativeToolTip": "Manager\\ClienteManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:53:52.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Registro.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Registro.aspx.cs",
-              "ToolTip": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
+              "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
               "RelativeToolTip": "TPWeb_Equipo3B\\Registro.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T16:52:17.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Registro.aspx",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx",
+              "DocumentMoniker": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Registro.aspx",
-              "ToolTip": "C:\\Users\\BBARRERA\\Desktop\\repo-web\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx",
+              "ToolTip": "C:\\Users\\aapan\\Downloads\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx",
               "RelativeToolTip": "TPWeb_Equipo3B\\Registro.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-04T16:50:53.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T16:50:53.504Z"
             }
           ]
         }

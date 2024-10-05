@@ -6,54 +6,68 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Dominio;
 using Manager;
+using static TPWeb_Equipo3B.Premios;
 
 namespace TPWeb_Equipo3B
 {
     public partial class Premios : System.Web.UI.Page
     {
-        public List<Articulo> articuloList {  get; set; }
+        public List<Articulo> articuloList { get; set; }
         public List<Imagen> imageList { get; set; }
-
-        private void BuscarId(object sender, EventArgs e)
-        {
-            
-
-            
-        }
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-
-            if(!IsPostBack)
+            if (!IsPostBack)
             {
 
                 ArticuloManager managerArticulo = new ArticuloManager();
-
                 ImagenManager managerImagen = new ImagenManager();
 
-                articuloList = managerArticulo.listar(); 
+                articuloList = managerArticulo.listar();
                 imageList = managerImagen.listar();
 
                 List<Imagen> imagenPorId = new List<Imagen>();
 
-                imagenPorId = imageList.FindAll(
-                    x => x.IdArticulo == articuloList[0].Id );
+                var articuloXimagenes = new List<ArticuloConImagenes>();
 
-                var articulosConImagenes = articuloList.Select(a => new
+
+                for (int i = 0; i < articuloList.Count; i++)
                 {
-                    a.Id,
-                    Imagenes = imageList.Where(i => i.IdArticulo == a.Id).ToList() // Filtra imágenes para cada artículo
-                }).ToList();
+                    imagenPorId = imageList.FindAll(
+                    x => x.IdArticulo == articuloList[i].Id);
 
-                //repRepetidor.DataSource = articulosConImagenes;
-                repRepetidor.DataSource = imagenPorId;
+                }
+                foreach (var articulo in articuloList)
+                {
+                    // Obtener las imágenes para el artículo actual
+                    var imagenesDelArticulo = imageList.FindAll(x => x.IdArticulo == articulo.Id);
+                    articuloXimagenes.Add(new ArticuloConImagenes
+                    {
+                        articulo = articulo,
+                        imagen = imagenesDelArticulo
+                    });
+                }
+
+
+                repRepetidor.DataSource = articuloXimagenes;
                 repRepetidor.DataBind();
-
-                
             }
-            
-             
+        }
+        protected void repRepetidor_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+            {
+                var articuloConImagenes = (ArticuloConImagenes)e.Item.DataItem;
+                var repImagenes = (Repeater)e.Item.FindControl("repImagenes");
+                repImagenes.DataSource = articuloConImagenes.imagen;
+                repImagenes.DataBind();
+            }
+        }
+
+        public class ArticuloConImagenes
+        {
+            public Articulo articulo { get; set; }
+            public List<Imagen> imagen { get; set; }
         }
     }
 }

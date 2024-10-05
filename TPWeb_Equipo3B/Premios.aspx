@@ -1,42 +1,79 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitioPrincipal.Master" AutoEventWireup="true" CodeBehind="Premios.aspx.cs" Inherits="TPWeb_Equipo3B.Premios" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+
+        .image-container {
+              width: 100%;           
+            height: 300px;        
+            overflow: hidden;     
+            display: flex;        
+            justify-content: center; 
+            align-items: center;  
+        }
+        .carousel-item img{
+             max-width: none;     
+            height: 300px;        
+            width: 100%;          
+        }
+        .titulo-principal {
+            display: flex;
+            background-color: #eadae9;
+            justify-content: center; 
+            align-items: center;
+        }
+        .fw-bold{
+            display: flex;
+            background-color: #eadae9;
+            justify-content: center; 
+            align-items: center;
+            
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-        <h2>Aca visualiza los productos y elije UNO</h2>
-        <h3>caja para el agregar dni </h3>
+        <h3 class="titulo-principal">
+            ¡¡Elegí el premio que más te guste!!
+            <small class="text-body-secondary">Recordá que solo podes elegír uno</small>
+          </h3>
 
     <br />
- 
-        <div id="carousel<%# Eval("Id") %>">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"> 
-             <div class="carousel-inner"  >
-             
-              <asp:Repeater runat="server" ID="repRepetidor">
-                <ItemTemplate> 
-                
-                    <div class="carousel-item <%# Container.ItemIndex == 0 ? "active" : "" %>" >
-                         <img src="<%# Eval("ImagenUrl")%>" class="d-block w-10" alt="unauna" style="height: 200px; width: 100%; object-fit: contain;">
-                         <div class="carousel-caption d-none d-md-block">
-                             
-                            <h5 class="card-title"> <%# Eval("IdArticulo") %> </h5>
-                            <p class="card-text">bbbb</p>
-                         </div>
-                     </div>     
-                  
-                 </ItemTemplate>
-             </asp:Repeater>  
- 
+
+    <div class="container">
+    <div class="row justify-content-center">
+     <asp:Repeater runat="server" ID="repRepetidor" OnItemDataBound="repRepetidor_ItemDataBound">
+        <ItemTemplate>
+            <div class="col-md-5 mb-4"> 
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title"><%# Eval("Articulo.Nombre") %></h5>
+                    <div id="carousel<%# Eval("Articulo.Id") %>" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <asp:Repeater runat="server" ID="repImagenes">
+                                <ItemTemplate>
+                                    <div class="carousel-item <%# Container.ItemIndex == 0 ? "active" : "" %>"> <!-- con esto verifico la posicion de imagen actual-->
+                                        <img src="<%# Eval("ImagenUrl") %>" class="d-block w-100" alt="Premio" >
+                                    </div>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel<%# Eval("Articulo.Id") %>" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel<%# Eval("Articulo.Id") %>" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <p class="fw-bold"><%# Eval("Articulo.Descripcion") %></p>
+                     <a href="registro.aspx" class="btn btn-warning"> Yo te Elijo!</a>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> 
-         </div>
+            </div>
+        </ItemTemplate>
+    </asp:Repeater>
+    </div>
     </div>
  
 </asp:Content>
