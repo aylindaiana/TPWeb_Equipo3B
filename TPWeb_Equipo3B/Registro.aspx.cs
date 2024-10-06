@@ -17,9 +17,14 @@ namespace TPWeb_Equipo3B
     public partial class Registro : System.Web.UI.Page
     {
         Cliente clienteActual = new Cliente();
+        Voucher voucherActual;
+        int IdArticulo;
 
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            voucherActual = (Voucher)Session["voucher"];
+            IdArticulo = (int)Session["IdArticulo"];
 
         }
 
@@ -40,45 +45,13 @@ namespace TPWeb_Equipo3B
                 return;
             }
 
-           
             BuscarCliente();
-            if (clienteActual.Id == 0)
-                GuardarCliente();
 
-            try //aca arranca el envio del mail
-            {
-                // Configurcion de el cliente SMTP
-                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587)
-                {                                                                   
-                    Credentials = new NetworkCredential("axelpereyra965@gmail.com", "dzdt bhmg ictr trtu"),
-                    EnableSsl = true
-                };
+            if (clienteActual.Id == 0) GuardarCliente();
 
-                MailMessage mailMessage = new MailMessage
-                {
-                    From = new MailAddress("axelpereyra965@gmail.com", "Promo Gana"),
-                    Subject = "Confirmación de premio",
-                    Body = "¡Gracias por participar!\n" +
-                           "Su premio elegido es: (el premio).\n" +
-                           "Ya puede acercarse a la sucursal para retirar su premio.",
-                    IsBodyHtml = false
-                };
+            ActualizarVoucher();
+            EnvioMailCliente();
 
-
-
-                //el destinatario
-                mailMessage.To.Add(clienteActual.Email.ToString()); 
-
-                // Envia el correo
-                smtpClient.Send(mailMessage);
-            }
-            catch (Exception ex)
-            {
-                
-                Response.Write("<script>alert('Error " + ex.Message + "');</script>");
-            }
-
-            
             Response.Redirect("~/GraciasPorParticipar.aspx");
         }
 
@@ -137,9 +110,52 @@ namespace TPWeb_Equipo3B
 
         private void ActualizarVoucher()
         {
-            //obtener el codigo del voucher obtenido
-            //obtener el codigo del articulo elegido
-            //Actualizar voucher
+            VoucherManager voucherManager = new VoucherManager();
+            DateTime fecahActual = DateTime.Now;
+
+            BuscarCliente();        //en caso de que el cliente no exista, luego de cargarlo lo vuelvo a buscar en la DB
+
+            voucherActual.IdCliente = clienteActual.Id;     //para obtener su id
+            voucherActual.FechaCanje = fecahActual;
+            voucherActual.IdArticulo = IdArticulo;
+
+            voucherManager.Modificar(voucherActual);
+        }
+
+        private void EnvioMailCliente()
+        {
+            try //aca arranca el envio del mail
+            {
+                // Configurcion de el cliente SMTP
+                SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587)
+                {
+                    Credentials = new NetworkCredential("axelpereyra965@gmail.com", "dzdt bhmg ictr trtu"),
+                    EnableSsl = true
+                };
+
+                MailMessage mailMessage = new MailMessage
+                {
+                    From = new MailAddress("axelpereyra965@gmail.com", "Promo Gana"),
+                    Subject = "Confirmación de premio",
+                    Body = "¡Gracias por participar!\n" +
+                           "Su premio elegido es: (el premio).\n" +
+                           "Ya puede acercarse a la sucursal para retirar su premio.",
+                    IsBodyHtml = false
+                };
+
+
+
+                //el destinatario
+                mailMessage.To.Add(clienteActual.Email.ToString());
+
+                // Envia el correo
+                smtpClient.Send(mailMessage);
+            }
+            catch (Exception ex)
+            {
+
+                Response.Write("<script>alert('Error " + ex.Message + "');</script>");
+            }
         }
 
         private void MensajeAviso(string data)

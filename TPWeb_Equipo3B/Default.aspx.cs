@@ -17,15 +17,13 @@ namespace TPWeb_Equipo3B
         }
 
         protected void btnAceptar_Click1(object sender, EventArgs e)
-        {   
-            VoucherManager voucher = new VoucherManager();
+        {
+            VoucherManager voucher_manager = new VoucherManager();
             Voucher voucherActual = new Voucher();
 
             try
             {
-
-                voucherActual = voucher.BuscarVoucher(txbIngresoVaucher.Text);
-
+                voucherActual = voucher_manager.BuscarVoucher(txbIngresoVaucher.Text);
             }
             catch (Exception ex)
             {
@@ -33,18 +31,21 @@ namespace TPWeb_Equipo3B
             }
 
 
-
-            if (voucherActual.CodigoVoucher != null)
+            if (voucherActual.CodigoVoucher == null)
             {
-                if (voucherActual.IdCliente != null) 
-                    MensajeAviso("Voucher ya utilizado");
-                else 
-                    Response.Redirect("~/Premios.aspx");
-            }
-            else
                 MensajeAviso("El voucher ingresado no es valido");
+                return;
+            }
 
+            if (voucherActual.IdCliente != null)
+            { 
+                MensajeAviso("Voucher ya utilizado");
+                return;
+            }
 
+            //Guardo datos del voucher
+            Session.Add("voucher",voucherActual);
+            Response.Redirect("~/Premios.aspx");
         }
 
         private void MensajeAviso(string data) 

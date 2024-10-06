@@ -40,5 +40,29 @@ namespace Manager
             }
 
         }
+
+        public void Modificar(Voucher voucher)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.SetearConsulta("update Vouchers set  IdCliente = @IdCliente, FechaCanje = @FechaCanje, IdArticulo = @IdArticulo  Where CodigoVoucher= @CodigoVoucher");
+                datos.SetearParametro("@IdCliente", voucher.IdCliente);
+                datos.SetearParametro("@FechaCanje", voucher.FechaCanje);
+                datos.SetearParametro("@IdArticulo", voucher.IdArticulo);
+                datos.SetearParametro("@CodigoVoucher", voucher.CodigoVoucher);
+
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConeccion();
+            }
+        }
+
     }
 }

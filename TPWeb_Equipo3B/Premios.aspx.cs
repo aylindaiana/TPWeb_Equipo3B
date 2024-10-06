@@ -64,6 +64,15 @@ namespace TPWeb_Equipo3B
             }
         }
 
+        protected void btnYoTeElijo_Command(object sender, CommandEventArgs e)
+        {
+            // Obtener el ID del artículo
+            int IdArticulo = Convert.ToInt32(e.CommandArgument);
+            Session.Add("IdArticulo",IdArticulo);
+
+            Response.Redirect("~/Registro.aspx");
+        }
+
         public class ArticuloConImagenes
         {
             public Articulo articulo { get; set; }

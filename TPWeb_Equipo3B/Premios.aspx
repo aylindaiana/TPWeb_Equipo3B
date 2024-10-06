@@ -73,7 +73,8 @@
                             <li class="list-group-item">CATEGORIA: <%# ((Dominio.Categoria)Eval("Articulo.TipoCategoria")).Descripcion%></li>
                         </ul>
 
-                     <a href="registro.aspx" class="btn btn-warning"> Yo te Elijo!</a>
+                     <asp:LinkButton ID="btnYoTeElijo" runat="server" CssClass="btn btn-warning" CommandArgument='<%# Eval("Articulo.Id") %>' OnCommand="btnYoTeElijo_Command">
+                        Yo te Elijo! </asp:LinkButton>
                 </div>
             </div>
             </div>
