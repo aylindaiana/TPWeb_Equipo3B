@@ -26,8 +26,8 @@ namespace Manager
 
         public AccesoDatos()
         {                                         //aca pongan el nombre que ustedes tengan
-            conexion = new SqlConnection("server=.\\SQLEXPRESS02; database=PROMOS_DB; integrated security=true");
-            //conexion = new SqlConnection("server=.\\SQLEXPRESS; database=PROMOS_DB; integrated security=true");
+            //conexion = new SqlConnection("server=.\\SQLEXPRESS02; database=PROMOS_DB; integrated security=true");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=PROMOS_DB; integrated security=true");
             comando = new SqlCommand();
         }
 

@@ -27,6 +27,7 @@
             justify-content: center; 
             align-items: center;   
         }
+
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -66,6 +67,12 @@
                         </button>
                     </div>
                     <p class="fw-bold"><%# Eval("Articulo.Descripcion") %></p>
+                    <ul class="list-group list-group-flush">
+                            <li class="list-group-item">PRECIO: $<%# Convert.ToDecimal(Eval("Articulo.Precio")).ToString("N2", System.Globalization.CultureInfo.CreateSpecificCulture("es-AR")) %> </li>           
+                            <li class="list-group-item">MARCA: <%# ((Dominio.Marca)Eval("Articulo.TipoMarca")).Descripcion%></li>
+                            <li class="list-group-item">CATEGORIA: <%# ((Dominio.Categoria)Eval("Articulo.TipoCategoria")).Descripcion%></li>
+                        </ul>
+
                      <a href="registro.aspx" class="btn btn-warning"> Yo te Elijo!</a>
                 </div>
             </div>
