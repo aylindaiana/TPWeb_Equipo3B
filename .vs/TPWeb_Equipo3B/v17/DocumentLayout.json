@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\bbarrera\\documents\\github\\tpweb_equipo3b\\tpweb_equipo3b\\correonotificacioncanjeo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\correonotificacioncanjeo.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\premios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\premios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|c:\\users\\bbarrera\\documents\\github\\tpweb_equipo3b\\tpweb_equipo3b\\sitioprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\sitioprincipal.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|solutionrelative:tpweb_equipo3b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DCCF6F65-96A6-4100-96D9-A9846C3879B7}|TPWeb_Equipo3B\\TPWeb_Equipo3B.csproj|C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\tpweb_equipo3b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,19 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Premios.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx.cs",
-              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Premios.aspx.cs",
-              "ToolTip": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx.cs",
-              "RelativeToolTip": "TPWeb_Equipo3B\\Premios.aspx.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T06:30:39.138Z"
+              "DocumentIndex": 1,
+              "Title": "SitioPrincipal.Master",
+              "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\SitioPrincipal.Master",
+              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\SitioPrincipal.Master",
+              "ToolTip": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\SitioPrincipal.Master",
+              "RelativeToolTip": "TPWeb_Equipo3B\\SitioPrincipal.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-06T19:20:25.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Premios.aspx",
               "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Premios.aspx",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Premios.aspx",
@@ -66,36 +59,12 @@
               "RelativeToolTip": "TPWeb_Equipo3B\\Premios.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T06:30:33.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CorreoNotificacionCanjeo.html",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\CorreoNotificacionCanjeo.html",
-              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\CorreoNotificacionCanjeo.html",
-              "ToolTip": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\CorreoNotificacionCanjeo.html",
-              "RelativeToolTip": "TPWeb_Equipo3B\\CorreoNotificacionCanjeo.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-06T05:15:54.359Z",
+              "WhenOpened": "2024-10-06T06:30:33.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registro.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
-              "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Registro.aspx.cs",
-              "ToolTip": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Registro.aspx.cs",
-              "RelativeToolTip": "TPWeb_Equipo3B\\Registro.aspx.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAIAxwJIAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T04:35:57.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Default.aspx",
@@ -103,11 +72,12 @@
               "RelativeToolTip": "TPWeb_Equipo3B\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T04:12:18.464Z"
+              "WhenOpened": "2024-10-06T04:12:18.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\BBARRERA\\Documents\\GitHub\\TPWeb_Equipo3B\\TPWeb_Equipo3B\\Default.aspx.cs",
               "RelativeDocumentMoniker": "TPWeb_Equipo3B\\Default.aspx.cs",
