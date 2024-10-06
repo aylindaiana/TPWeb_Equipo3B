@@ -73,7 +73,7 @@
                             <li class="list-group-item">CATEGORIA: <%# ((Dominio.Categoria)Eval("Articulo.TipoCategoria")).Descripcion%></li>
                         </ul>
 
-                     <asp:LinkButton ID="btnYoTeElijo" runat="server" CssClass="btn btn-warning" CommandArgument='<%# Eval("Articulo.Id") %>' OnCommand="btnYoTeElijo_Command">
+                     <asp:LinkButton ID="btnYoTeElijo" runat="server" CssClass="btn btn-warning" CommandArgument='<%# Eval("Articulo.Id")%>' OnCommand="btnYoTeElijo_Command">
                         Yo te Elijo! </asp:LinkButton>
                 </div>
             </div>

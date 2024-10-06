@@ -169,6 +169,10 @@
                 <label class="form-check-label" for="CheckBoxTerminos">Acepto todos los términos</label>
             </div>
 
+            <div>
+                <asp:Label ID="LblMessageChkbox" runat="server" Text="" style="color: red"></asp:Label>
+            </div>
+            <br/>
             <asp:Button ID="BotonParticipar" runat="server" Text="Participar" CssClass="btn btn-primary" OnClick="BotonParticipar_Click" />
         </div>
     </div>

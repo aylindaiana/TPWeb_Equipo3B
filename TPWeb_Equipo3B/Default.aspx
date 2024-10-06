@@ -10,6 +10,8 @@
              <div class="mb-3">
                  <label for="exampleInputEmail1" class="form-label fw-bold">Ingresa el código de tu boucher</label>
                  <asp:TextBox ID="txbIngresoVaucher" runat="server" class="form-control"/>
+                 <br/>
+                 <asp:Label ID="LblMessageStatus" runat="server" Text="" style="color: red"></asp:Label>
              </div>
              <asp:Button ID="btnAceptar" runat="server" Text="Siguiente" CssClass="btn btn-primary" OnClick="btnAceptar_Click1" />
          </div>

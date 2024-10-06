@@ -11,9 +11,13 @@ namespace TPWeb_Equipo3B
 {
     public partial class Default : System.Web.UI.Page
     {
+        string msgStatus = "hola que tal";
+
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+                LblMessageStatus.Text = "";
+            
         }
 
         protected void btnAceptar_Click1(object sender, EventArgs e)
@@ -27,19 +31,19 @@ namespace TPWeb_Equipo3B
             }
             catch (Exception ex)
             {
-                MensajeAviso(ex.ToString());
+                Response.Write("<script>alert('Error " + ex.Message + "');</script>");
             }
 
 
             if (voucherActual.CodigoVoucher == null)
             {
-                MensajeAviso("El voucher ingresado no es valido");
+                LblMessageStatus.Text = "El voucher ingresado no es valido";
                 return;
             }
 
             if (voucherActual.IdCliente != null)
             { 
-                MensajeAviso("Voucher ya utilizado");
+                LblMessageStatus.Text = "Voucher ya utilizado";
                 return;
             }
 
@@ -48,10 +52,6 @@ namespace TPWeb_Equipo3B
             Response.Redirect("~/Premios.aspx");
         }
 
-        private void MensajeAviso(string data) 
-        {
-            string script = "alert('" + data.Replace("'", "\\'") + "');";
-            ClientScript.RegisterStartupScript(this.GetType(), "mensaje", script, true);
-        }
+
     }
 }

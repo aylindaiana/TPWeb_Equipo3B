@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -19,13 +20,20 @@ namespace TPWeb_Equipo3B
         Cliente clienteActual = new Cliente();
         Voucher voucherActual;
         int IdArticulo;
+        string urlImagen;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            voucherActual = (Voucher)Session["voucher"];
-            IdArticulo = (int)Session["IdArticulo"];
-
+            if (Session["voucher"] != null)
+            {
+                voucherActual = (Voucher)Session["voucher"];
+                IdArticulo = (int)Session["IdArticulo"];
+                urlImagen = (string)Session["UrlImagen"];
+            }
+            else 
+            {
+                Response.Write("<script>alert('Debe ingresar un voucher antes de registrarse!'); window.location='Default.aspx';</script>");
+            }
         }
 
         protected void TextBoxDNI_TextChanged(object sender, EventArgs e)
@@ -41,7 +49,7 @@ namespace TPWeb_Equipo3B
            
             if (CheckBoxTerminos.Checked == false)
             {
-                MensajeAviso("Acepte los términos y condiciones");
+                LblMessageChkbox.Text = "Acepte los términos y condiciones";
                 return;
             }
 
@@ -54,10 +62,6 @@ namespace TPWeb_Equipo3B
 
             Response.Redirect("~/GraciasPorParticipar.aspx");
         }
-
-
-
-
 
         private void MostrarDatosCliente(Cliente clienteActual)
         {
@@ -96,7 +100,7 @@ namespace TPWeb_Equipo3B
             }
             catch (Exception ex)
             {
-                MensajeAviso(ex.ToString());
+                Response.Write("<script>alert('Error " + ex.Message + "');</script>");
             }
         }
 
@@ -124,44 +128,50 @@ namespace TPWeb_Equipo3B
 
         private void EnvioMailCliente()
         {
-            try //aca arranca el envio del mail
+            ArticuloManager articuloManager = new ArticuloManager();
+
+            try // Aca arranca el envío del mail
             {
-                // Configurcion de el cliente SMTP
+                // Configuración del cliente SMTP
                 SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587)
                 {
                     Credentials = new NetworkCredential("axelpereyra965@gmail.com", "dzdt bhmg ictr trtu"),
                     EnableSsl = true
                 };
 
+                string planillaHtml = Server.MapPath("CorreoNotificacionCanjeo.html"); 
+                string body = File.ReadAllText(planillaHtml);
+
+                Articulo articuloActual = articuloManager.BuscarArticulo(IdArticulo);
+
+                body = body.Replace("{UrlImagen}", urlImagen);
+                body = body.Replace("{Voucher}", voucherActual.CodigoVoucher);
+                body = body.Replace("{Nombre}", articuloActual.Nombre);
+                body = body.Replace("{Codigo}", articuloActual.Codigo);
+                body = body.Replace("{Descripcion}", articuloActual.Descripcion);
+                body = body.Replace("{Marca}", articuloActual.TipoMarca.Descripcion); 
+                body = body.Replace("{Categoria}", articuloActual.TipoCategoria.Descripcion);
+
                 MailMessage mailMessage = new MailMessage
                 {
                     From = new MailAddress("axelpereyra965@gmail.com", "Promo Gana"),
                     Subject = "Confirmación de premio",
-                    Body = "¡Gracias por participar!\n" +
-                           "Su premio elegido es: (el premio).\n" +
-                           "Ya puede acercarse a la sucursal para retirar su premio.",
-                    IsBodyHtml = false
+                    Body = body, 
+                    IsBodyHtml = true
                 };
 
-
-
-                //el destinatario
+                // El destinatario
                 mailMessage.To.Add(clienteActual.Email.ToString());
 
-                // Envia el correo
+                // Enviar el correo
                 smtpClient.Send(mailMessage);
             }
             catch (Exception ex)
             {
-
-                Response.Write("<script>alert('Error " + ex.Message + "');</script>");
+                Response.Write("<script>alert('Error al enviar el correo: " + ex.Message + "');</script>");
             }
         }
 
-        private void MensajeAviso(string data)
-        {
-            string script = "alert('" + data.Replace("'", "\\'") + "');";
-            ClientScript.RegisterStartupScript(this.GetType(), "mensaje", script, true);
-        }
+
     }
 }

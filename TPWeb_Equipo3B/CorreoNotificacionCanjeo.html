@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de premio canjeado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content-container {
+            display: flex; 
+            justify-content: space-between;
+            margin: 20px; 
+        }
+
+        .details {
+            flex: 1; 
+            margin-right: 20px; /* Espacio entre los detalles y la imagen */
+        }
+
+        .image-container {
+            flex: 1; 
+            text-align: center; 
+        }
+
+        .footer {
+            background-color: #f8f8f8;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+        }
+
+        img.articulo-imagen {
+            max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+            height: auto; /* Mantiene la relación de aspecto */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color: firebrick; background-color: lightgray">Gracias por participar!!!</h1>
+    </div>
+
+    <div class="content-container">
+        <div class="details">
+            <h2 style="color: firebrick">Tu artículo seleccionado es:</h2>
+            <br/>
+            <p>Código de Voucher: <strong>{Voucher}</strong></p>
+            <p>Nombre: <strong>{Nombre}</strong></p>
+            <p>Código: <strong>{Codigo}</strong></p>
+            <p>Descripción: <strong>{Descripcion}</strong></p>
+            <p>Marca: <strong>{Marca}</strong></p>
+            <p>Categoría: <strong>{Categoria}</strong></p>
+        </div>
+
+        <div class="image-container">
+            <img src="{UrlImagen}" alt="Imagen del artículo" class="articulo-imagen" />
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Gracias por su participacion. ¡Esperamos que disfrute de su artículo!</p>
+    </div>
+</body>
+</html>
